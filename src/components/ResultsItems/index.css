@@ -1,0 +1,26 @@
+.thumbnail-image {
+  width: 100%;
+}
+.logo-and-title {
+  display: flex;
+  margin-top: 8px;
+}
+.profile-image-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 6px;
+  align-self: center;
+}
+.flex-bottom-card {
+  color: #64748b;
+  font-size: 14px;
+  display: flex;
+  font-family: 'roboto';
+  margin-left: 15%;
+}
+.margin {
+  margin-right: 8px;
+}
+.link-router {
+  text-decoration: none;
+}

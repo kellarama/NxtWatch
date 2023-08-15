@@ -1,0 +1,17 @@
+.thumbnail-image {
+  width: 100%;
+}
+.logo-and-title {
+  display: flex;
+  margin-top: 8px;
+}
+
+.margin {
+  margin-right: 8px;
+  color: #64748b;
+  font-size: 14px;
+  font-family: 'roboto';
+}
+.link-router {
+  text-decoration: none;
+}

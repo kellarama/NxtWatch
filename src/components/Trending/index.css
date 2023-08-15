@@ -1,0 +1,138 @@
+.side-image {
+  width: 25px;
+  margin-right: 10px;
+}
+.hight-light {
+  background-color: #9edaf7;
+  border-radius: 10px;
+}
+.red {
+  color: #ff0000;
+  font-size: 25px;
+}
+.grey {
+  color: #94a3b8;
+  font-size: 25px;
+}
+.flex-share {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img-share {
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+}
+.banner-and-result-card {
+  width: 65%;
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+}
+.logo-and-close-card {
+  display: flex;
+}
+.next-watch-logo {
+  width: 100px;
+}
+.banner-description {
+  font-family: 'roboto';
+  font-size: 18px;
+}
+.button-banner {
+  color: #000000;
+  height: 35px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-width: 1px;
+  font-weight: 600;
+}
+.flex-close-btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cross-btn {
+  font-size: 20px;
+}
+.failure-view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.failure-card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-img {
+  width: 50%;
+}
+.button-retry {
+  height: 30px;
+  width: 100px;
+  border: none;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 10px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.flex-search {
+  display: flex;
+}
+.search-icon {
+  fill: #94a3b8;
+  font-size: 20px;
+}
+.result-main-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+.to-trending-icon {
+  margin-right: 10px;
+  font-size: 50px;
+  fill: #ff0000;
+}
+.flex-container-trending {
+  display: flex;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .next-watch-logo {
+    width: 70px;
+  }
+  .banner-description {
+    font-size: 15px;
+  }
+  .flex-close-btn {
+    width: 50%;
+  }
+}

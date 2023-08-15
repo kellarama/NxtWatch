@@ -1,0 +1,43 @@
+.light {
+  font-size: 35px;
+}
+.dark {
+  font-size: 35px;
+}
+.link-logo {
+  text-decoration: none;
+}
+.popup-card {
+  width: 300px;
+  height: 150px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.btn-cancel {
+  color: #64748b;
+  font-family: 'roboto';
+  border-color: #64748b;
+  border-radius: 10px;
+  border-width: 1px;
+  background-color: transparent;
+  height: 30px;
+  width: 100px;
+  margin-right: 10px;
+}
+.btn-confirm {
+  color: #ffffff;
+  font-family: 'roboto';
+  border-radius: 10px;
+  border: none;
+  background-color: #3b82f6;
+  height: 30px;
+  width: 100px;
+}
+@media (max-width: 576px) {
+  .dark {
+    font-size: 25px;
+  }
+  .light {
+    font-size: 25px;
+  }
+}

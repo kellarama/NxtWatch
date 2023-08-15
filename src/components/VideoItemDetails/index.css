@@ -1,0 +1,134 @@
+* {
+  font-family: 'roboto';
+}
+.side-image {
+  width: 25px;
+  margin-right: 10px;
+}
+.grey {
+  color: #94a3b8;
+  font-size: 25px;
+}
+.flex-share {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img-share {
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+}
+.banner-and-result-card {
+  width: 65%;
+}
+.failure-view {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.failure-card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-img {
+  width: 50%;
+}
+.button-retry {
+  height: 30px;
+  width: 100px;
+  border: none;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border-radius: 10px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.flex-search {
+  display: flex;
+}
+.search-icon {
+  fill: #94a3b8;
+  font-size: 20px;
+}
+.result-main-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20px;
+}
+.result-main-list {
+  width: 100%;
+}
+.details-card {
+  width: 100%;
+}
+.flex-views {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.view {
+  color: #64748b;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.like-save-card {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+.icon-size {
+  fill: #616e7c;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.subscribers-card {
+  width: 100%;
+  display: flex;
+  border-top: 2px solid #616e7c;
+  padding-top: 10px;
+}
+.sub-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.description-card {
+  margin-top: 10px;
+  width: 100%;
+}
+.btn- {
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #616e7c;
+}
+@media (max-width: 576px) {
+  .result-main-list {
+    width: 100%;
+    height: 50px;
+  }
+  .btn- {
+    font-size: 12px;
+  }
+  .icon-size {
+    font-size: 12px;
+  }
+}
